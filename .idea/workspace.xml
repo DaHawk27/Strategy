@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dee1aed-f7b7-4553-beb8-5589e748a0a3" name="Changes" comment="" />
+    <list default="true" id="7dee1aed-f7b7-4553-beb8-5589e748a0a3" name="Changes" comment="Lol">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XUv1HfmcIElpAv34NpVYi7ZaXU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,6 +39,32 @@
       <option name="presentableId" value="Default" />
       <updated>1698696255655</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lol">
+      <created>1698696445490</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698696445490</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Lol">
+      <created>1698696662693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698696662693</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Lol">
+      <created>1698696676850</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698696676850</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lol" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lol" />
   </component>
 </project>
