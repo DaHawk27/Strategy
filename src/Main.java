@@ -2,6 +2,7 @@ import java.util.*;
 
 //hi
 //hjjkj
+nk
 class Course
 {
     private String _cnum;
