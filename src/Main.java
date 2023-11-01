@@ -1,7 +1,7 @@
 import java.util.*;
 
 //hi
-//hjjkj
+//hjj
 
 class Course
 {
