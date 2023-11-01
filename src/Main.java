@@ -58,6 +58,10 @@ class AllItems<T>
     {
         _items = new ArrayList<T>();
     }
+    public AllItems(int size)
+    {
+        _items = new ArrayList<T>(size);
+    }
     public void addItem(T t)
     {
         _items.add(t);
@@ -105,6 +109,10 @@ class AllStudents{
     public AllStudents(){
         _students = new AllItems<Student>();
     }
+    public AllStudents(int size)
+    {
+        _students = new AllItems<Student>(size);
+    }
     public void addStudent(String id){
         _students.addItem(new Student(id));
     }
@@ -118,9 +126,25 @@ class AllStudents{
     }
     public void removeStudent(String id)
     {
-        int i = _students.findItem(id, new StudentSearch());
+        int i = findStudent(id);
         _students.removeItem(i);
-
+    }
+    public boolean modifyID(String id, String newID)
+    {
+        int i = findStudent(id);
+        if (i <0)
+        {
+            return false;
+        }
+        else
+        {
+            _students.getItem(i).setID(newID);
+            return true;
+        }
+    }
+    public int size()
+    {
+        return _students.size();
     }
     public String toString(){
         String s = "Students:\n";
@@ -147,8 +171,25 @@ class AllCourses{
     }
     public void removeCourse(String cnum)
     {
-        int i = _courses.findItem(cnum, new CourseSearch());
+        int i = findCourse(cnum);
         _courses.removeItem(i);
+    }
+    public boolean modifyCourseID(String cnum, String newCnum)
+    {
+        int i = findCourse(cnum);
+        if (i < 0)
+        {
+            return false;
+        }
+        else
+        {
+            _courses.getItem(i).setNumber(newCnum);
+            return true;
+        }
+    }
+    public int size()
+    {
+        return _courses.size();
     }
     public String toString(){
         String s = "Courses:\n";
